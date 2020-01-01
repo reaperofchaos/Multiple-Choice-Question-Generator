@@ -1,0 +1,4 @@
+Find
+	([A-Za-z%#<>].*)—(.*)
+Replace
+\t\{\t"Term":"\1",\r\n\t\t"Definition":"\2"\r\n\t\},
